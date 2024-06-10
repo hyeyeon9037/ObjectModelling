@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;_01_OCP_ex._01_OCP_ex.java&apos; to &apos;T01_OCP.java&apos;&#x0D;&#x0A;- Original project: &apos;ch01_solid&apos;&#x0D;&#x0A;- Original element: &apos;_01_OCP_ex._01_OCP_ex.java&apos;&#x0D;&#x0A;- Renamed element: &apos;_01_OCP_ex.T01_OCP.java&apos;" description="Rename compilation unit &apos;_01_OCP_ex.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;_01_OCP_ex{_01_OCP_ex.java" name="T01_OCP.java" references="false" stamp="1717988811341" version="1.0"/>
+</session>

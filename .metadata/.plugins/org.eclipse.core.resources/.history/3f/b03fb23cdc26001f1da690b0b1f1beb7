@@ -1,0 +1,5 @@
+package _02_FactoryPattern_answer;
+
+public class ProuductFactory {
+
+}

@@ -1,0 +1,15 @@
+package _02_FactoryPattern_answer;
+
+public class ProductRun {
+
+	public static void main(String[] args) {
+	
+		Proudct p1 = new Product();
+		p1.setName("Tv");
+		System.out.println(p1);
+		
+		Proudct 
+
+	}
+
+}

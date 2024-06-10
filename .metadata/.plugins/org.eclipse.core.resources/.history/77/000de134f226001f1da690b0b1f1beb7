@@ -1,0 +1,9 @@
+package _07_Observer;
+
+public class ConcreteSubject {
+
+	public ConcreteSubject() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,56 @@
+package _05_BuilderPattern.builder;
+
+public class SubwayBuilder {
+	
+	//1. 멤버변수를 동일하게 넣어준다.
+	
+	private int size;
+	private String bread;
+	private String cheese;
+	private String extraTopping;
+	private boolean vagetable;
+	private String source;
+	//Subway 클래스 속성이랑 똑같이.
+	
+	/* 2. 속성의 setter 메소드 구현
+		  - 반환형 : 내 객체
+	*/  
+	
+	/*
+	 
+	 메소드명 지정하는 방법
+	 - 속성명(과 동일) : setter 메소드와 구분을 하기 위해서
+	 				 ex) size(int size)
+	 				 
+	 - set 속성명 :  ex) setSzie(int size)
+	 				
+	 - with 속성명 : setter 메소드와 구분하기 위해서 'with'라는 키워드를 사용한다
+ 					 ex) withSize(int size)
+ 	
+	 */
+
+	
+	public void SubwayBuilder withSize(int size) {
+		this.size = size;
+	}
+	public void setBread(String bread) {
+		this.bread = bread;
+	}
+	public void setCheese(String cheese) {
+		this.cheese = cheese;
+	}
+	public void setExtraTopping(String extraTopping) {
+		this.extraTopping = extraTopping;
+	}
+	public void setVagetable(boolean vagetable) {
+		this.vagetable = vagetable;
+	}
+	public void setSource(String source) {
+		this.source = source;
+	}
+	
+
+	
+	
+	
+}

@@ -1,0 +1,66 @@
+package _06_BuilderPattern.builderConstructer;
+
+public class SubwayBuilder {
+	
+
+	
+	private int size;
+	private String bread;
+	private String cheese;
+	private String extraTopping;
+	private boolean vagetable;
+	private String source;
+
+	public SubwayBuilder(int size, String bread, String source) {
+		super();
+		this.size = size;
+		this.bread = bread;
+		this.source = source;
+	}
+	
+	public SubwayBuilder setSize(int size) {
+		this.size = size;
+		return this;
+	}  
+
+
+	public SubwayBuilder setBread(String bread) {
+		this.bread = bread;
+		return this;
+	}
+	public SubwayBuilder setCheese(String cheese) {
+		this.cheese = cheese;
+		return this;
+	}
+	public SubwayBuilder setExtraTopping(String extraTopping) {
+		this.extraTopping = extraTopping;
+		return this;
+	}
+	public SubwayBuilder setVagetable(boolean vagetable) {
+		this.vagetable = vagetable;
+		return this;
+	}
+	public SubwayBuilder setSource(String source) {
+		this.source = source;
+		return this;
+	}
+
+	
+	// ★★★ 3. Subway 객체를 생성하여 리턴 : Subway 생성자 호출로 
+	public Subway build( ) {
+		return new Subway(size, bread, cheese, extraTopping, vagetable, source);
+	} // 사용자로부터 받은 것
+	
+	
+
+	@Override
+	public String toString() {
+		return "SubwayBuilder [size=" + size + ", bread=" + bread + ", cheese=" + cheese + ", extraTopping="
+				+ extraTopping + ", vagetable=" + vagetable + ", source=" + source + "]";
+	}
+	
+	
+	
+	
+	
+}

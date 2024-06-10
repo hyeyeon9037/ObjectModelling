@@ -1,0 +1,9 @@
+package _07_Observer;
+
+public class ObserverA {
+
+	public ObserverA() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

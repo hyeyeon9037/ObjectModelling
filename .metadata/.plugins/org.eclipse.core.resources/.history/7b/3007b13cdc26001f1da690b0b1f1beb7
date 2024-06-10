@@ -1,0 +1,11 @@
+package _02_FactoryPattern_answer;
+
+public class Product {
+	
+	private String name;
+	private int price;
+	
+	public void setName(String name) {
+		this.name = 
+	}
+}
